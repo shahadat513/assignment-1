@@ -45,6 +45,31 @@ body {
 
 }
 
+.basic-content {
+    max-width: 852px;
+    margin: 0 auto;
+}
+
+.basic-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.basic-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
 /* Banner Section Style */
 
 .banner-container {
@@ -194,14 +219,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
-.inspiration-content {
+.basic-content {
     max-width: 852px;
     margin: 0 auto;
 }
 
-.inspiration-title {
+.basic-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -211,7 +237,7 @@ body {
     margin-bottom: 24px;
 }
 
-.inspiration-description {
+.basic-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -239,4 +265,63 @@ body {
     height: 550px;
     border-radius: 16px;
     border: none;
+}
+
+/* Target Section Style */
+.current-target {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.current-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 111px;
+}
+
+.box1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.target-des {
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.target-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+}
+
+.box2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.box3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
